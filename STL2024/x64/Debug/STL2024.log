@@ -1,0 +1,89 @@
+﻿  main.cpp
+D:\visual studio work\STL2024\main.cpp(102,24): warning C4244: '+=': conversion from '_Ty2' to 'int', possible loss of data
+          with
+          [
+              _Ty2=float
+          ]
+D:\visual studio work\STL2024\main.cpp(109,23): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\visual studio work\STL2024\main.cpp(223,25): warning C4244: '+=': conversion from '_Ty2' to 'int', possible loss of data
+          with
+          [
+              _Ty2=float
+          ]
+D:\visual studio work\STL2024\main.cpp(230,24): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(200,61): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(200): message : see reference to function template instantiation 'std::pair<int,float>::pair<int,int,0>(std::pair<int,int> &&) noexcept' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(200,61): message : see reference to function template instantiation 'std::pair<int,float>::pair<int,int,0>(std::pair<int,int> &&) noexcept' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(673): message : see reference to function template instantiation 'std::pair<const std::string,std::pair<int,float>>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&) noexcept' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(680,47): message : see reference to function template instantiation 'std::pair<const std::string,std::pair<int,float>>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&) noexcept' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(806): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::pair<int,float>>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,std::pair<int,float>>,
+              _Objty=std::pair<const std::string,std::pair<int,float>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(807,34): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::pair<int,float>>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,std::pair<int,float>>,
+              _Objty=std::pair<const std::string,std::pair<int,float>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(994): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,std::pair<int,float>>>,
+              _Ty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::pair<int,float>>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(1010,46): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,std::pair<int,float>>>,
+              _Ty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::pair<int,float>>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(1031): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,std::pair<int,float>>>,
+              _Kty=std::string,
+              _Ty=std::pair<int,float>,
+              _Pr=std::less<std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(1032,30): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const std::string,std::pair<int,float>>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,std::pair<int,float>>>,
+              _Kty=std::string,
+              _Ty=std::pair<int,float>,
+              _Pr=std::less<std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\map(553): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,std::pair<int,float>>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::pair<int,float>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::pair<int,float>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\map(554,9): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,std::pair<int,float>>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::pair<int,float>,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::pair<int,float>>>
+          ]
+D:\visual studio work\STL2024\main.cpp(67,60): message : see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,std::pair<int,float>>>>> std::multimap<std::string,std::pair<int,float>,std::less<std::string>,std::allocator<std::pair<const std::string,std::pair<int,float>>>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+D:\visual studio work\STL2024\main.cpp(67,25): message : see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,std::pair<int,float>>>>> std::multimap<std::string,std::pair<int,float>,std::less<std::string>,std::allocator<std::pair<const std::string,std::pair<int,float>>>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<int,int>> &&)' being compiled
+  STL2024.vcxproj -> D:\visual studio work\STL2024\x64\Debug\STL2024.exe
